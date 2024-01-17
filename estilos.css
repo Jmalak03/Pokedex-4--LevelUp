@@ -1,0 +1,183 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #eff3ff;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+}
+
+.card{
+    width: 320px;
+    height: auto;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin: 15px;
+    background: #fff;
+}
+.hp{
+    position: relative;
+    text-align: center;
+    width: 80px;
+    background: #fff;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 13px;
+}
+.hp span{
+    font-weight: normal;
+    font-size: 15px;
+}
+.card img {
+    position: relative;
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 20px auto;
+}
+.pokename{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.types{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    gap: 5px 0;
+}
+
+.types p{
+    background: #f3cd44;
+    border-radius: 15px;
+    width: 80px;
+    color: white;
+    text-align: center;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+.stats p{ 
+    color: gray;
+}
+.bug{
+    background: radial-gradient(circle at 50% 0%, #26de81 36%, #fff 36%);
+}
+.bug .types p{
+    background: #26de81;
+}
+.dragon{
+    background: radial-gradient(circle at 50% 0%, #ffeaa7 36%, #fff 36%);
+}
+.dragon .types p{
+    background: #ffeaa7;
+}
+.electric{
+    background: radial-gradient(circle at 50% 0%, #fed330 36%, #fff 36%);
+}
+.electric .types p{
+    background: #fed330;
+}
+.fairy{
+    background: radial-gradient(circle at 50% 0%, #FF0069 36%, #fff 36%);
+}
+.fairy .types p{
+    background: #FF0069;
+}
+.fighting{
+    background: radial-gradient(circle at 50% 0%, #30336b 36%, #fff 36%);
+}
+.fighting .types p{
+    background: #30336b;
+}
+.fire{
+    background: radial-gradient(circle at 50% 0%, #f0932b 36%, #fff 36%);
+}
+.fire .types p{
+    background: #f0932b;
+}
+.flying{
+    background: radial-gradient(circle at 50% 0%, #81ecec 36%, #fff 36%);
+}
+.flying .types p{
+    background: #81ecec;
+}
+.grass{
+    background: radial-gradient(circle at 50% 0%, #00b894 36%, #fff 36%);
+}
+.grass .types p{
+    background: #00b894;
+}
+.ground{
+    background: radial-gradient(circle at 50% 0%, #EFB549 36%, #fff 36%);
+}
+.ground .types p{
+    background: #EFB549;
+}
+.ghost{
+    background: radial-gradient(circle at 50% 0%, #a55eea 36%, #fff 36%);
+}
+.ghost .types p{
+    background: #a55eea;
+}
+.ice{
+    background: radial-gradient(circle at 50% 0%, #74b9ff 36%, #fff 36%);
+}
+.ice .types p{
+    background: #74b9ff;
+}
+.normal{
+    background: radial-gradient(circle at 50% 0%, #95afc0 36%, #fff 36%);
+}
+.normal .types p{
+    background: #95afc0;
+}
+.poison{
+    background: radial-gradient(circle at 50% 0%, #6c5ce7 36%, #fff 36%);
+}
+.poison .types p{
+    background: #6c5ce7;
+}
+.psychic{
+    background: radial-gradient(circle at 50% 0%, #a29bfe 36%, #fff 36%);
+}
+.psychic .types p{
+    background: #a29bfe;
+}
+.rock{
+    background: radial-gradient(circle at 50% 0%, #2d3436 36%, #fff 36%);
+}
+.rock .types p{
+    background: #2d3436;
+}
+.water{
+    background: radial-gradient(circle at 50% 0%, #0190FF 36%, #fff 36%);
+}
+.water .types p{
+    background: #0190FF;
+}
+.dark{
+    background: radial-gradient(circle at 50% 0%, #19191a 36%, #fff 36%);
+}
+.dark .types p{
+    background: #19191a;
+}
